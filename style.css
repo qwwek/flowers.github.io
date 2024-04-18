@@ -1000,11 +1000,10 @@ body {
 .text-animation {
   font-size: 2rem;
   position: absolute;
-  top: 20%; 
+  top: 10%; 
   left: 50%;
   transform: translateX(-50%);
-  background-color: #a7ffee;
-  background-image: linear-gradient(to top, #54b8aa, #a7ffee);
+  color: #a7ffee;
   z-index: 10;
   animation: text-animation 4s infinite; 
 }
