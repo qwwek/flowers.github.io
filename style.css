@@ -981,6 +981,33 @@ body {
     transform: scale(0);
   }
 }
+
+@keyframes text-animation {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-60%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-70%);
+    opacity: 0;
+  }
+}
+
+.text-animation {
+  font-size: 2rem;
+  position: absolute;
+  top: 20%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #39c6d6); 
+  z-index: 10;
+  animation: text-animation 4s infinite; 
+}
+
 .not-loaded * {
   animation-play-state: paused !important;
 }
