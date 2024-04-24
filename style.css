@@ -997,17 +997,6 @@ body {
   }
 }
 
-.text-animation {
-  font-size: 2rem;
-  position: absolute;
-  top: 10%; 
-  left: 50%;
-  transform: translateX(-50%);
-  color: #a7ffee;
-  z-index: 10;
-  animation: text-animation 4s infinite; 
-}
-
 .not-loaded * {
   animation-play-state: paused !important;
 }
